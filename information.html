@@ -1,0 +1,71 @@
+<!-- Trang HTML (information.html) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/information.css">
+    <title>Thông Tin Người Dùng</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Trang Chủ</a>
+        <a href="gioHang.html">Bán Hàng</a>
+    </nav>
+
+    <h2>Thông Tin Thanh Toán</h2>
+    <div class="information-container">
+        <form id="information-form">
+            <table>
+                <tr>
+                    <td>
+                        <label for="ho">Họ:</label>
+                        <input type="text" id="ho" name="ho">
+                        <div id="hoError" class="error-message"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ten">Tên:</label>
+                        <input type="text" id="ten" name="ten">
+                        <div id="tenError" class="error-message"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="namSinh">Ngày Sinh:</label>
+                        <input type="date" id="namSinh" name="namSinh">
+                        <div id="namSinhError" class="error-message"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Giới Tính:</label>
+                        <div>
+                            <input type="radio" id="nam" name="gioiTinh" value="nam">
+                            <label for="nam">Nam</label>
+
+                            <input type="radio" id="nu" name="gioiTinh" value="nu">
+                            <label for="nu">Nữ</label>
+                        </div>
+                        <div id="gioiTinhError" class="error-message"></div>
+                    </td>
+                </tr>
+            </table>
+            <label for="diaChi">Địa Chỉ:</label>
+            <textarea id="diaChi" name="diaChi"></textarea>
+            <div id="diaChiError" class="error-message"></div>
+
+            <button type="button" onclick="validate()">Lưu Thông Tin</button>
+        </form>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">Nguyễn Trọng Tùng Anh - PH23200</p>
+    </footer>
+    
+    <script src="js/information.js"></script>
+</body>
+</html>

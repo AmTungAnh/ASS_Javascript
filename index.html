@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Website Bán Hàng</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Trang Chủ</a>
+        <a href="gioHang.html">Bán Hàng</a>
+    </nav>
+    <header>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <p href="#"><img src="image/banner1.avif" alt="Slide 1"></p>
+            </div>
+            <div class="slide fade">
+                <p href="#"><img src="image/banner2.avif" alt="Slide 2"></p>
+            </div>
+            <div class="slide fade">
+                <p href="#"><img src="image/banner3.avif" alt="Slide 3"></p>
+            </div>
+            <div class="slide fade">
+                <p href="#"><img src="image/banner4.avif" alt="Slide 4"></p>
+            </div>
+    
+            <a class="prev" onclick="changeSlide(-1)">&#10094; Previous</a>
+            <a class="next" onclick="changeSlide(1)">Next &#10095;</a>
+        </div>
+    </header>
+
+    <section id="product-list">
+        <h2>Danh Sách Sản Phẩm</h2>
+        <div class="product-container">
+        </div>
+    </section>
+    <footer>
+        <p style="text-align: center;">Nguyễn Trọng Tùng Anh -  PH23200</p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/1214a1c935.js" crossorigin="anonymous"></script>
+</body>
+</html>
