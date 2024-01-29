@@ -23,14 +23,14 @@ nav {
 }
 
 .detail-container img {
-    width: 200px; /* Điều chỉnh kích thước của ảnh */
+    width: 200px;
     height: auto;
-    float: left; /* Đẩy ảnh về góc bên trái */
-    margin-right: 20px; /* Tạo khoảng cách giữa ảnh và thông tin */
+    float: left;
+    margin-right: 20px;
 }
 
 .detail-info {
-    max-width: 400px; /* Giới hạn chiều rộng của phần thông tin */
+    max-width: 400px;
 }
 
 .detail-info p {
@@ -51,12 +51,12 @@ footer {
 }
 
 .product-image {
-    width: 200px; /* Điều chỉnh kích thước của ảnh */
+    width: 200px;
     height: auto;
-    float: left; /* Đẩy ảnh về góc bên trái */
-    margin-right: 20px; /* Tạo khoảng cách giữa ảnh và thông tin */
+    float: left;
+    margin-right: 20px;
 }
 
 .product-info {
-    max-width: 400px; /* Giới hạn chiều rộng của phần thông tin */
+    max-width: 400px; 
 }

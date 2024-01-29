@@ -14,7 +14,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 1",
         gia: "1000",
-        soLuong: 100,
+        soLuong: 50,
         like: true
     },
     {
@@ -32,7 +32,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 2",
         gia: "1000",
-        soLuong: 100,
+        soLuong: 86,
         like: false
     },
     {
@@ -50,7 +50,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 3",
         gia: "200000",
-        soLuong: 100,
+        soLuong: 36,
         like: true
     },
     {
@@ -67,8 +67,8 @@ const sanPham = [
             }
         ],
         ten: "Sản phẩm 4",
-        gia: "6000000",
-        soLuong: 100,
+        gia: "60000",
+        soLuong: 93,
         like: false
     },
     {
@@ -86,7 +86,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 5",
         gia: "100000",
-        soLuong: 100,
+        soLuong: 1,
         like: true
     },
     {
@@ -104,7 +104,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 6",
         gia: "70000",
-        soLuong: 100,
+        soLuong: 7,
         like: false
     },
     {
@@ -122,7 +122,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 7",
         gia: "100000",
-        soLuong: 100,
+        soLuong: 84,
         like: true
     },
     {
@@ -140,7 +140,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 8",
         gia: "400000",
-        soLuong: 100,
+        soLuong: 13,
         like: true
     },
     {
@@ -158,7 +158,7 @@ const sanPham = [
         ],
         ten: "Sản phẩm 9",
         gia: "100000",
-        soLuong: 100,
+        soLuong: 80,
         like: true
     },
     {
@@ -220,6 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     
         sessionStorage.setItem("gioHang", JSON.stringify(gioHang));
+        alert("Them thanh cong")
     }
 
     function renderProduct(product) {
@@ -256,7 +257,7 @@ showSlides(slideIndex);
 function changeSlide(n) {
     showSlides(slideIndex += n);
 }
-
+setTimeout(slideIndex + 1, 100);
 function showSlides(n) {
     let i;
     const slides = document.getElementsByClassName("slide");
